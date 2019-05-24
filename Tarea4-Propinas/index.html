@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <title>Tip Calculator</title>
+    </head>
+    <body>
+        <div class="container-all"></div>
+        <div class="title">
+            <h1>Tip Calculator</h1>
+        </div>
+        <form>
+            <div class="row">
+                <div class="label"><label for="bill">Bill amount:</label></div>
+                <div class="input" id="dollar"><input type="number" id="bill" name="bill" placeholder="" step="0.01" min="0" required></div>
+            </div>
+            <div class="row">
+                <div class="label"><label for="percentage">Tip percentage:</label></div>
+                <div class="input" id="percent"><input type="number" id="tip" name="tip" placeholder="" step="1" min="0" required></div>
+            </div>
+            <div class="row">
+                <div class="label"><label for="people">Number of people:</label></div>
+                <div class="input"><input type="number" id="people" name="people" placeholder="" step="1" min="1" required></div>
+            </div>
+        </form>
+        <div class="button">
+            <button class="calculate" id="calculate">Calculate</button>
+        </div>
+        <div class="message">
+            <p id="message">-</p>
+        </div>
+        <div class="totals" id="totals">
+            <div class="dashed-line-top"></div>
+            <div class="row">
+                <div class="text">The tip amount is:</div>
+                <div class="number" id="total-tip">-</div>
+            </div>
+            <div class="row">
+                <div class="text">Bill including tip:</div>
+                <div class="number" id="total-bill">-</div>
+            </div>
+            <div class="row">
+                <div class="text">Each person will pay:</div>
+                <div class="number" id="total-each">-</div>
+            </div>
+            <div class="dashed-line-bottom"></div>
+            <br/>
+            <div class="date" id="date"></div>
+            <br/>
+            <div class="bye">Come back soon!</div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

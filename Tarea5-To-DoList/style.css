@@ -1,0 +1,154 @@
+body {
+	margin: 25px auto;
+	width: 80%;
+	max-width: 800px;
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	background-color: #6DD5FA;
+	background: linear-gradient(to bottom, #e0f3fa, #6DD5FA, #2980B9) center center no-repeat;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+.message {
+	font-family: 'Fredoka One', sans-serif;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+.top-div {
+	display: flex;
+}
+
+.input-div {
+	height: 50px;
+	width: calc(100% - 90px);
+	float: left;
+	line-height: 50px;
+}
+
+.input {
+	width: calc(100% - 10px);
+	height: 40px;
+	font-family: 'Love Ya Like A Sister', sans-serif;
+	font-size: 25px;
+	padding-left: 10px;
+	margin-top: 2px;
+}
+
+.add-button-div {
+	width: 90px;
+	float: left;
+}
+
+.add {
+	font-family: 'Fredoka One', sans-serif;
+	font-size: 30px;
+	border: none;
+	width: 80px;
+	height: 40px;
+	margin: 5px 0 5px 10px;
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 10px;
+}
+
+.add:hover {
+	background-color: green;
+}
+
+h1 {
+	font-family: 'Fredoka One', sans-serif;
+	margin: 20px 0 0 0;
+	padding: 20px 30px;
+	border-top: 1px solid #B69A73;
+	border-bottom: 1px solid #B69A73;
+	border-radius: 10px 10px 0 0;
+}
+
+h1, .all-items {
+	background-color: #FFFBDF;
+	border-left: 1px solid #B69A73;
+	border-right: 1px solid #B69A73;
+}
+
+.item {
+	clear: both;
+	border-bottom: 1px solid #B69A73;
+	display: flex;
+}
+
+.check-div {
+	width: 36px;
+	float: left;
+}
+
+.checkbox {
+	position: relative;
+	float: left;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: auto 12px;
+}
+
+.text {
+	font-size: 30px;
+	width: calc(100% - 72px);
+	float: left;
+	padding-top: 5px;
+}
+
+.remove-button-div {
+	width: 36px;
+	float: left;
+}
+
+.remove {
+	font-family: 'Fredoka One', sans-serif;
+	font-size: 14px;
+	border: none;
+	width: 24px;
+	height: 24px;
+	background-color: #FC6A6D;
+	color: white;
+	border-radius: 5px;
+	margin: 0 0 0 6px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.remove:hover {
+	background-color: crimson;
+}
+
+.bottom-div {
+	height: 25px;
+	background-color: #FFFBDF;
+	border-left: 1px solid #B69A73;
+	border-right: 1px solid #B69A73;
+	border-bottom: 1px solid #B69A73;
+	border-radius: 0 0 10px 10px;
+}
+
+@media screen and (max-width: 480px) {
+	.top-div, .input-div, .add-button-div {
+		width: 100%;
+	}
+
+	.top-div {
+		display: inline-block;
+	}
+
+	.input {
+		width: calc(100% - 10px);
+	}
+
+	.add {
+		width: 100%;
+		margin: 5px 0;
+	}
+
+	h1 {
+		margin-top: 10px;
+	}
+}

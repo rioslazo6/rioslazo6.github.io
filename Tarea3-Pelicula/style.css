@@ -1,0 +1,134 @@
+body {
+	padding: 20px 50px 50px;
+	font-family: 'Cabin Condensed', sans-serif;
+	text-align: justify;
+	color: white;
+	background-color: black;
+}
+
+h1, h2 {
+	font-family: 'Staatliches', sans-serif;
+}
+
+h3, .rules {
+	font-family: 'Contrail One', sans-serif;
+	color: #FF7F66;
+}
+
+.rules {
+	text-align: center;
+	margin: 25px 0px;
+	max-width: 480px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.poster {
+	float: left;
+	margin: 0 40px 20px 0;
+	box-shadow: 5px 5px 20px rgba(255,255,255,0.5);
+}
+
+.trailer-title {
+	clear: left;
+}
+
+.trailer {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 5px 5px 20px rgba(255,255,255,0.5);
+}
+
+.cast {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+.cast-img {
+	height: 140px;
+	width: 140px;
+	overflow: hidden;
+	border-radius: 50%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 5px 5px 20px rgba(255,255,255,0.5);
+}
+
+.narrator-img {
+	margin: 0 -15px;
+}
+
+.tyler-img {
+	margin: -15px -15px;
+}
+
+.marla-img {
+	margin: 0 -3px;
+}
+
+.bob-img {
+	margin: 0 -95px;
+}
+
+.angel-img {
+	margin: 0 -30px;
+}
+
+.director-img {
+	margin: -15px 0px;
+}
+
+.brad-pitt-fight {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 5px 5px 20px rgba(255,255,255,0.5);
+}
+
+a {
+	color: #2185C5;
+}
+
+@media (max-width: 800px) {
+
+	.trailer {
+		width: 100%;
+	}
+
+	.cast {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 30px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.rules {
+		margin: 25px 0;
+	}
+
+	.poster {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.summary {
+		clear: left;
+	}
+
+	.brad-pitt-fight {
+		width: 100%;
+		height: auto;
+	}
+}

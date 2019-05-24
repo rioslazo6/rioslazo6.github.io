@@ -1,0 +1,63 @@
+body {
+	background-color: #19181A;
+	color: #DDDDDD;
+	font-family: 'Cabin Condensed', sans-serif;
+}
+
+.carousel-item  {
+	max-height: 600px;
+	min-width: auto;
+	font-family: 'Contrail One', sans-serif;
+}
+
+#poster {
+	max-height: 300px;
+}
+
+h2 {
+	color: #CEBC81;
+	font-family: 'Staatliches', sans-serif;
+}
+
+.row h5 {
+	color: #B19F9E;
+	font-family: 'Staatliches', sans-serif;
+}
+
+.cast-img {
+	height: 140px;
+	width: 140px;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+#narrator-img {	margin: 0 -15px;
+}
+
+#tyler-img {
+	margin: -15px -15px;
+}
+
+#marla-img {
+	margin: 0 -3px;
+}
+
+#bob-img {
+	margin: 0 -95px;
+}
+
+#angel-img {
+	margin: 0 -30px;
+}
+
+#director-img {
+	margin: -15px 0px;
+}
+
+input[type="text"], input[type="email"], input[type="text"]:focus, input[type="email"]:focus {
+	color: #DDDDDD;
+}
+
+.modal {
+	color: #DDDDDD;
+}
